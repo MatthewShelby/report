@@ -1,3 +1,8 @@
+.card-img {
+      max-width: 300px;
+
+}
+
 .pdf-dl-btn {
       color: chocolate;
       cursor: pointer;
@@ -51,7 +56,17 @@
 
 .month-head {
       margin-left: 3vw;
-      color: rgb(26, 7, 112);
+      color: rgb(17, 148, 94);
       font-weight: 600;
+      font-size: large;
       line-height: 80%;
+}
+
+.month {
+      padding: 1vw;
+      padding-top: 6vh;
+      margin-top: 3vh;
+      margin-bottom: 2vw;
+      background-color: rgb(17, 148, 94, 0.05);
+      border-radius: 10px;
 }
