@@ -1,0 +1,57 @@
+.pdf-dl-btn {
+      color: chocolate;
+      cursor: pointer;
+      font-weight: 500;
+      border: 3px solid chocolate;
+      border-radius: 12px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 0px;
+      padding-bottom: 2px;
+      text-decoration: none;
+      float: right;
+      margin-right: 100px;
+}
+
+.subs {
+      margin-left: 7vw;
+      font-weight: 500;
+      font-size: large;
+}
+
+.des {
+      margin-left: 6vw;
+      font-weight: 600;
+      font-size: large;
+}
+
+.title {
+      margin-left: 3vw;
+      font-weight: 700;
+      font-size: larger;
+}
+
+.content {
+      color: rgb(26, 7, 112);
+}
+
+.title:before {
+      content: "• ";
+}
+
+.con {
+      margin: 5vw;
+}
+
+.year {
+      color: rgb(26, 7, 112);
+      font-weight: 600;
+      line-height: 80%;
+}
+
+.month-head {
+      margin-left: 3vw;
+      color: rgb(26, 7, 112);
+      font-weight: 600;
+      line-height: 80%;
+}
