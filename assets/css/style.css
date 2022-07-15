@@ -2,7 +2,9 @@
       text-align: center;
       padding: 20px;
       padding-bottom: 8px;
+      border-radius: 6px;
       color: rgb(40, 37, 61);
+      border: 2px solid rgb(0, 0, 0, 0.15);
       background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
