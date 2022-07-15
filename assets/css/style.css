@@ -1,6 +1,6 @@
 .card-img {
       max-width: 300px;
-
+      background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .pdf-dl-btn {
@@ -16,6 +16,12 @@
       text-decoration: none;
       float: right;
       margin-right: 100px;
+}
+
+.pdf-dl-btn:hover {
+      color: rgb(238, 67, 24);
+      border: 3px solid rgb(238, 67, 24);
+      background-color: rgb(238, 67, 24, 0.06);
 }
 
 .subs {
