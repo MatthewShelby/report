@@ -1,46 +1,46 @@
 .lang-btn {
-      width: 130px;
+      width: 150px;
       height: 55px;
       padding: 5px;
       border: 4px solid rgb(26, 7, 112);
-      border-radius: 13px 25px 13px 13px;
+      border-radius: 25px 13px 13px 13px;
       cursor: pointer;
 }
 
 .lang-btn:hover {
-      width: 130px;
+      width: 150px;
       height: 55px;
       padding: 5px;
       border: 4px solid rgb(16, 4, 68);
       background-color: rgba(26, 7, 112, 0.2);
-      border-radius: 13px 25px 13px 13px;
+      border-radius: 25px 13px 13px 13px;
       cursor: pointer;
 }
 
 .lang-btn a {
       color: rgb(26, 7, 112);
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 500;
       margin-top: 4px;
 }
 
 .lang-btn a:hover {
       color: rgb(26, 7, 112);
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 500;
       margin-top: 4px;
 }
 
 .lang-flag {
       max-width: 64px !important;
-      float: right;
-      /* margin-right: 0px !important;
-      padding-right: 0px !important; */
 }
 
-
+.ltr {
+      direction: ltr;
+}
 
 .foot {
+      font-family: farnaz;
       text-align: center;
       padding: 20px;
       padding-bottom: 8px;
@@ -66,7 +66,7 @@
       padding-top: 0px;
       padding-bottom: 2px;
       text-decoration: none;
-      float: right;
+      float: left;
       margin-right: 100px;
 }
 
@@ -77,14 +77,15 @@
 }
 
 .subs {
-      margin-left: 7vw;
+      margin-right: 7vw;
+      margin-right: 7vw;
       font-weight: 500;
       font-size: large;
 }
 
 .des {
-      margin-left: 6vw;
-      font-weight: 600;
+      margin-right: 4vw;
+      font-weight: 700;
       font-size: large;
 }
 
@@ -127,4 +128,12 @@
       margin-bottom: 2vw;
       background-color: rgb(17, 148, 94, 0.05);
       border-radius: 10px;
+}
+
+@font-face {
+      font-family: 'farnaz';
+      src: url('../fonts/Farnaz.eot');
+      src: url('../fonts/Farnaz.eot?#iefix') format("embedded-opentype"), url('../fonts/Farnaz.woff') format("woff"), url('../fonts//Farnaz.ttf') format("truetype");
+      font-weight: normal;
+      font-style: normal
 }
